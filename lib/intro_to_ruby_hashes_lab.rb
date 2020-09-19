@@ -1,5 +1,8 @@
 def new_hash
-  hash.new
+  new_hash = {
+  :created => Time.now,
+  :message => "Hello world!"
+}
 end
 
 def my_hash

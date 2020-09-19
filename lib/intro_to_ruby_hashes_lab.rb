@@ -1,12 +1,12 @@
 def new_hash
+  Hash.new
+end
+
+def my_hash
   new_hash = {
   :created => Time.now,
   :message => "Hello world!"
 }
-end
-
-def my_hash
-  # return a valid hash with any key/value pair of your choice
 end
 
 def pioneer
